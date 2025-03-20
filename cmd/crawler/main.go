@@ -16,7 +16,7 @@ const (
 	totalPages = 100                                 // Кол-во страниц для выкачки
 	outputDir  = "pages"                             // Название директории для выкаченных веб-страниц
 	baseURL    = "https://elementy.ru/novosti_nauki" // URL ресурса, с которого берутся страницы
-	baseDomain = "https://elementy.ru"
+	baseDomain = "https://elementy.ru"               // Домашняя страница ресурса
 )
 
 func main() {
