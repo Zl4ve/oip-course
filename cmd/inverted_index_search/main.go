@@ -32,6 +32,7 @@ func main() {
 
 	// Создание сканера для чтения пользовательского ввода
 	scanner := bufio.NewScanner(os.Stdin)
+	fmt.Println("Type 'exit' to quit")
 	fmt.Println("Enter your query:")
 
 	for {
