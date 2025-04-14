@@ -44,3 +44,10 @@ go run cmd/inverted_index_builder/main.go
 ```
 go run cmd/inverted_index_search/main.go
 ```
+
+### Задание 4. TF-IDF
+
+Для запуска вычисления TF-IDF в корневой директории выполните команду в терминале:
+```
+go run cmd/tf_idf/main.go
+```
