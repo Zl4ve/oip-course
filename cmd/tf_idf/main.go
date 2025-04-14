@@ -90,7 +90,7 @@ func main() {
 
 			_, err = fmt.Fprintf(tokensTfIdfWriter, "%s %f %f\n", token, idf, tf*idf)
 			if err != nil {
-				log.Printf("write to tokens file error: %v", err)
+				log.Printf("write to tokens tf-idf file error: %v", err)
 				continue
 			}
 		}
@@ -129,7 +129,7 @@ func main() {
 
 			_, err = fmt.Fprintf(lemmasTfIdfWriter, "%s %f %f\n", lemma, lemmaIdf, lemmaTf*lemmaIdf)
 			if err != nil {
-				log.Printf("write to tokens file error: %v", err)
+				log.Printf("write to lemmas tf-idf file error: %v", err)
 				continue
 			}
 		}
